@@ -9,7 +9,7 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>Description</key>
-	<string>An empty class C++ file.</string>
+	<string>An empty OF class C++  file.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
