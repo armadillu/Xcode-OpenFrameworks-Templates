@@ -9,7 +9,7 @@
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>Description</key>
-	<string>An empty OF class C++  file.</string>
+	<string>An empty OF class subclassing Node from ofxInterface C++ file.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -48,6 +48,6 @@
 	<key>SortOrder</key>
 	<string>1</string>
 	<key>Summary</key>
-	<string>An C++ file with an empty class on it. Includes &quot;ofMain.h&quot;.</string>
+	<string>An C++ file with an empty subclass of ofxinterface::Node on it.</string>
 </dict>
 </plist>
