@@ -21,12 +21,15 @@ void ___FILEBASENAMEASIDENTIFIER___::draw(){
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::drawDebug(){
+	Node::drawDebug();
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::drawBounds(){
+	Node::drawBounds();
 }
 
 bool ___FILEBASENAMEASIDENTIFIER___::contains(const ofVec3f& globalPoint){
+	Node::contains(globalPoint);
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::onClick(TouchEvent&){
