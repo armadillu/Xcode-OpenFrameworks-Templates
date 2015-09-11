@@ -20,6 +20,22 @@ public:
 	
 	___FILEBASENAMEASIDENTIFIER___();
 	
+	void setup(float x, float y, float w, float h);
+
+	void update(float dt);
+	void draw();
+	
+	void drawDebug();	 // debug debugging stuff (will be called by renderDebug)
+	void drawBounds();   // overide for debugging if bounds are not rectangular
+	bool contains(const ofVec3f& globalPoint);
+	
+	//events
+	void onClick(TouchEvent&);
+	void onTouchDown(TouchEvent& event);
+	void onTouchMove(TouchEvent& event);
+	void onTouchUp(TouchEvent& event);
+
+	
 protected:
 
 };
