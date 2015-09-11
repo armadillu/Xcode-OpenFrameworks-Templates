@@ -19,6 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___: public Node{
 public:
 	
 	___FILEBASENAMEASIDENTIFIER___();
+	~___FILEBASENAMEASIDENTIFIER___();
 	
 	void setup(float x, float y, float w, float h);
 

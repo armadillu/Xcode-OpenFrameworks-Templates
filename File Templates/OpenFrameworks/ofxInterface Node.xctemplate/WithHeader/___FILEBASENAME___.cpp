@@ -11,7 +11,18 @@
 ___FILEBASENAMEASIDENTIFIER___::___FILEBASENAMEASIDENTIFIER___(){
 }
 
+___FILEBASENAMEASIDENTIFIER___::~___FILEBASENAMEASIDENTIFIER___(){
+	ofRemoveListener(eventTouchDown, this, &___FILEBASENAMEASIDENTIFIER___::onTouchDown);
+	ofRemoveListener(eventTouchUp, this, &___FILEBASENAMEASIDENTIFIER___::onTouchUp);
+	ofRemoveListener(eventTouchMove, this, &___FILEBASENAMEASIDENTIFIER___::onTouchMove);
+	ofRemoveListener(eventClick, this, &___FILEBASENAMEASIDENTIFIER___::onClick);
+}
+
 void ___FILEBASENAMEASIDENTIFIER___::setup(float x, float y, float w, float h){
+	ofAddListener(eventTouchDown, this, &___FILEBASENAMEASIDENTIFIER___::onTouchDown);
+	ofAddListener(eventTouchUp, this, &___FILEBASENAMEASIDENTIFIER___::onTouchUp);
+	ofAddListener(eventTouchMove, this, &___FILEBASENAMEASIDENTIFIER___::onTouchMove);
+	ofAddListener(eventClick, this, &___FILEBASENAMEASIDENTIFIER___::onClick);
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::update(float dt){
