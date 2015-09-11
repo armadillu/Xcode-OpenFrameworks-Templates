@@ -9,9 +9,10 @@
 #include "___FILEBASENAME___.h"
 
 ___FILEBASENAMEASIDENTIFIER___::___FILEBASENAMEASIDENTIFIER___(){
-
 }
 
+void ___FILEBASENAMEASIDENTIFIER___::setup(float x, float y, float w, float h){
+}
 
 void ___FILEBASENAMEASIDENTIFIER___::update(float dt){
 }
