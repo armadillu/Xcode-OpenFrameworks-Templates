@@ -40,7 +40,7 @@ void ___FILEBASENAMEASIDENTIFIER___::drawBounds(){
 }
 
 bool ___FILEBASENAMEASIDENTIFIER___::contains(const ofVec3f& globalPoint){
-	Node::contains(globalPoint);
+	return Node::contains(globalPoint);
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::onClick(TouchEvent&){
