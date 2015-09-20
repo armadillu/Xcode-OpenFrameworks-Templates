@@ -23,6 +23,8 @@ void ___FILEBASENAMEASIDENTIFIER___::setup(float x, float y, float w, float h){
 	ofAddListener(eventTouchUp, this, &___FILEBASENAMEASIDENTIFIER___::onTouchUp);
 	ofAddListener(eventTouchMove, this, &___FILEBASENAMEASIDENTIFIER___::onTouchMove);
 	ofAddListener(eventClick, this, &___FILEBASENAMEASIDENTIFIER___::onClick);
+	setSize(w, h);
+	setPosition(x, y, 0);
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::update(float dt){
