@@ -6,9 +6,7 @@
 //___COPYRIGHT___
 //
 
-#ifndef _____PROJECTNAMEASIDENTIFIER________FILEBASENAMEASIDENTIFIER_____
-#define _____PROJECTNAMEASIDENTIFIER________FILEBASENAMEASIDENTIFIER_____
-
+#pragma once
 #include "ofMain.h"
 
 class ___FILEBASENAMEASIDENTIFIER___{
@@ -25,5 +23,3 @@ public:
 protected:
 
 };
-
-#endif /* defined(_____PROJECTNAMEASIDENTIFIER________FILEBASENAMEASIDENTIFIER_____) */
