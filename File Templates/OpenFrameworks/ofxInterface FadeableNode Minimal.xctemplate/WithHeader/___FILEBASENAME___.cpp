@@ -20,6 +20,7 @@ void ___FILEBASENAMEASIDENTIFIER___::setup(float x, float y, float w, float h){
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::update(float dt){
+	FadeableNode::update(dt);
 }
 
 void ___FILEBASENAMEASIDENTIFIER___::drawContent(){
